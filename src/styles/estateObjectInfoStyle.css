@@ -1,0 +1,53 @@
+.info-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info-title {
+    font-weight: bold;
+    color: #029cf0;
+}
+
+.info-price, .info-title {
+    font-size: 28px;
+    width: auto;
+}
+
+.info-description, .info-sellerName, .info-address {
+    font-size: 20px;
+    width: 60%;
+}
+
+.info-description {
+    width: 80%;
+    text-align: justify;
+}
+
+.info-sellerName {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: right;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.image {
+    width: auto;
+}
+
+.gallery button {
+    font-size: 20px;
+    border: none;
+    background-color: #03a9fa;
+    color: white;
+    margin: 10px;
+    height: 50px;
+}
